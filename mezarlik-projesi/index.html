@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mezarlık Projesi - Gönül Yolcuları</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">
+      <img src="../assets/images/logo-gonul-yolculari.png" alt="Gönül Yolcuları Logo" class="brand-logo">
+      <div class="brand-text">
+        <span class="script-title">Gönül Yolcuları</span>
+        <small>Kardeşlik, iyilik ve kültürel miras</small>
+      </div>
+    </a>
+    <nav>
+      <a href="../index.html">Anasayfa</a>
+      <a class="active" href="index.html">Mezarlık Projesi</a>
+    </nav>
+  </header>
+
+  <main class="project-main">
+    <section class="project-intro">
+      <span class="badge">Ana Mekânlar → İçindeki Türbelerin Listesi → Türbe Sayfası</span>
+      <h1>Mezarlık Projesi</h1>
+      <p>
+        Bu proje, tarihî türbe ve mezar alanlarını sade bir dijital sistem içinde sunmayı amaçlar. Kullanıcı
+        önce ana mekânı seçer, ardından o bölgedeki türbe kartlarını görür ve son olarak seçilen türbenin
+        detay sayfasına ulaşır.
+      </p>
+    </section>
+
+    <section class="simple-section top-space-less">
+      <div class="section-title-wrap">
+        <span class="mini-line"></span>
+        <h2>Ana Mekânlar</h2>
+      </div>
+      <div id="placeList" class="place-grid"></div>
+    </section>
+
+    <section id="dynamicContent" class="simple-section top-space-less"></section>
+  </main>
+
+  <footer class="footer clean-footer">
+    <div>
+      <h3 class="script-footer">Gönül Yolcuları</h3>
+      <p>
+        İyiliği, kültürel mirası ve dijital erişilebilirliği bir araya getiren sade ve anlamlı bir
+        gönüllülük ekibi.
+      </p>
+    </div>
+
+    <div>
+      <h4>Sayfalar</h4>
+      <p>Anasayfa<br>Mezarlık Projesi</p>
+    </div>
+
+    <div>
+      <h4>Veri Sistemi</h4>
+      <p>Yeni türbe eklemek için <code>data/turbeler.json</code> dosyasına yeni kayıt eklenir.</p>
+    </div>
+
+    <small>&copy; 2026 Gönül Yolcuları. Tüm hakları saklıdır.</small>
+  </footer>
+
+  <script src="../assets/js/app.js"></script>
+</body>
+</html>

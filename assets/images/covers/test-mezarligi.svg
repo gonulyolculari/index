@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#204a5a"/>
+      <stop offset="55%" stop-color="#1b2b36"/>
+      <stop offset="100%" stop-color="#2f7a6e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="178" cy="118" r="118" fill="#ffffff" opacity="0.08"/>
+  <circle cx="1035" cy="610" r="182" fill="#ffffff" opacity="0.06"/>
+  <path d="M0 560C176 500 346 512 504 594C656 673 834 646 1002 574C1078 542 1142 530 1200 534V720H0Z" fill="#ffffff" opacity="0.07"/>
+  <rect x="72" y="72" rx="28" width="220" height="58" fill="#ffffff" opacity="0.14"/>
+  <text x="182" y="108" fill="#ffffff" font-size="24" font-family="Georgia, serif" font-weight="700" text-anchor="middle">Demo alan</text>
+  <rect x="74" y="176" rx="38" width="718" height="294" fill="#091115" opacity="0.18" stroke="#ffffff" stroke-opacity="0.18"/>
+  <text x="102" y="292" fill="#ffffff" font-size="72" font-family="Georgia, serif" font-weight="700">
+    <tspan x="102" dy="0">İstanbul Deneme</tspan>
+    <tspan x="102" dy="78">Mezarlığı</tspan>
+  </text>
+  <text x="102" y="546" fill="#ffffff" opacity="0.84" font-size="31" font-family="Arial, sans-serif">Demo kartlar ve örnek türbe kayıtları</text>
+  <text x="102" y="606" fill="#ffffff" opacity="0.62" font-size="22" font-family="Arial, sans-serif">Gönül Yolcuları mezarlık prototipi</text>
+</svg>

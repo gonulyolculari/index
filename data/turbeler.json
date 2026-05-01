@@ -1,0 +1,191 @@
+{
+  "mekanlar": [
+    {
+      "id": "istanbul-fatih",
+      "ad": "İstanbul / Fatih",
+      "renk": "red",
+      "ozet": "Fatih bölgesi içindeki tarihî türbeler ve hazire alanları bu başlık altında listelenir."
+    },
+    {
+      "id": "bursa-iznik",
+      "ad": "Bursa / İznik",
+      "renk": "blue",
+      "ozet": "Bursa ve İznik çevresindeki tarihî türbeler ve manevî şahsiyetler burada listelenir."
+    },
+    {
+      "id": "elazig-harput",
+      "ad": "Elazığ / Harput",
+      "renk": "green",
+      "ozet": "Harput bölgesindeki türbeler ve tarihî ziyaret noktaları bu alanda toplanır."
+    },
+    {
+      "id": "test-mezarligi",
+      "ad": "Test Mezarlığı / İstanbul",
+      "renk": "blue",
+      "ozet": "Bu alan, sistemin nasıl çalıştığını göstermek için eklenmiş örnek bir test mezarlığıdır."
+    },
+    {
+      "id": "uskudar-deneme-haziresi",
+      "ad": "Üsküdar Deneme Haziresi",
+      "renk": "red",
+      "ozet": "Yedek test kayıtları için hazırlanan örnek hazire alanı bu başlık altında listelenir."
+    },
+    {
+      "id": "konya-deneme-kabristani",
+      "ad": "Konya Deneme Kabristanı",
+      "renk": "green",
+      "ozet": "Kart görünümünü test etmek için oluşturulan numune mezar kayıtları bu alanda toplanır."
+    },
+    {
+      "id": "edirne-deneme-mezarligi",
+      "ad": "Edirne Deneme Mezarlığı",
+      "renk": "blue",
+      "ozet": "Sunum ve yedek test amaçlı örnek mezarlık kayıtları burada gösterilir."
+    }
+  ],
+  "turbeler": [
+    {
+      "id": "fatih-sultan-muhammed-han",
+      "mekanId": "istanbul-fatih",
+      "baslik": "Fatih Sultan Muhammed Han Hz.",
+      "kategori": "Evliya",
+      "konum": "Fatih Sultan Muhammed Han Hz. Türbesi, İstanbul / Fatih",
+      "gorsel": "../assets/images/covers/fatih-sultan-muhammed.svg",
+      "kisaAciklama": "Fatih Sultan Muhammed Han Hz. İstanbul Fatih içerisinde yer alan türbesi ile tarihî hafızanın önemli duraklarından biridir.",
+      "detay": "Bu alanda türbe hakkındaki detaylı tanıtım, tarihî arka plan ve ziyaret bilgileri yer alabilir.",
+      "osmanlica": "Osmanlıca kitabe veya mezar taşı metni burada gösterilebilir.",
+      "turkce": "Kitabenin günümüz Türkçesine aktarımı ve kısa açıklaması bu bölümde yer alır.",
+      "ingilizce": "English explanation of the tomb inscription and historical note can appear here."
+    },
+    {
+      "id": "seyh-kutbuddin",
+      "mekanId": "bursa-iznik",
+      "baslik": "Şeyh Kutbuddin Hz. (Fatih Sultan Muhammed Hz.) Hocaları",
+      "kategori": "Evliya",
+      "konum": "Şeyh Kutbuddin Hz. Türbesi, Bursa / İznik",
+      "gorsel": "../assets/images/covers/seyh-kutbuddin.svg",
+      "kisaAciklama": "Şeyh Kutbuddin Hz. ile ilgili kısa açıklama bu kartta sade bir şekilde verilir. Devamında kullanıcı detay sayfasına geçebilir.",
+      "detay": "Bu bölümde Şeyh Kutbuddin Hz. hakkında kısa tarihçe, önemi ve türbe bilgisi daha geniş biçimde aktarılabilir.",
+      "osmanlica": "Osmanlıca içerik veya eski metin çözümü burada yer alabilir.",
+      "turkce": "Günümüz Türkçesi açıklaması ve sadeleştirilmiş metin burada gösterilebilir.",
+      "ingilizce": "English translation field for visitors can be added here."
+    },
+    {
+      "id": "fatih-ahmet-baba",
+      "mekanId": "elazig-harput",
+      "baslik": "Fatih Ahmet Baba Hz.",
+      "kategori": "Evliya",
+      "konum": "Fatih Ahmet Baba Hz. Türbesi, Elazığ / Harput",
+      "gorsel": "../assets/images/covers/fatih-ahmet-baba.svg",
+      "kisaAciklama": "Fatih Ahmet Baba Hz. hakkında kısa tanıtım, konum bilgisi ve devam bağlantısı bu kart yapısı içinde sunulur.",
+      "detay": "Bu bölümde türbenin geçmişi, bölgedeki konumu ve kültürel önemi daha detaylı anlatılabilir.",
+      "osmanlica": "Osmanlıca kitabe metni varsa bu kutuda gösterilebilir.",
+      "turkce": "Günümüz Türkçesi açıklaması ve kısa notlar bu alanda yer alır.",
+      "ingilizce": "Optional English explanation for international visitors."
+    },
+    {
+      "id": "ornek-test-turbesi",
+      "mekanId": "test-mezarligi",
+      "baslik": "Örnek Test Türbesi",
+      "kategori": "Test",
+      "konum": "Test Mezarlığı, İstanbul",
+      "gorsel": "../assets/images/covers/test-mezarligi.svg",
+      "kisaAciklama": "Bu kart, yeni türbe ve mezarlık ekleme yapısının nasıl görüneceğini göstermek amacıyla eklenmiş örnek test kaydıdır.",
+      "detay": "Bu örnek kayıt sayesinde sistemde yeni bir mezarlık ve ona bağlı türbe ekleme mantığı test edilebilir.",
+      "osmanlica": "Örnek Osmanlıca kitabe metni burada yer alacaktır.",
+      "turkce": "Bu bölümde mezar taşı veya kitabenin günümüz Türkçesine çevrilmiş hâli bulunacaktır.",
+      "ingilizce": "This section contains a sample English translation for the inscription."
+    },
+    {
+      "id": "numune-hazire-tasi",
+      "mekanId": "test-mezarligi",
+      "baslik": "Numune Hazire Taşı",
+      "kategori": "Test",
+      "konum": "Test Mezarlığı, İstanbul",
+      "gorsel": "../assets/images/covers/test-mezarligi.svg",
+      "kisaAciklama": "Aynı test alanı altında ikinci bir örnek kart bulunur ve liste görünümünün dolu halde nasıl durduğunu gösterir.",
+      "detay": "Bu kayıt, bir mezarlık altında birden fazla kart olduğunda sayfanın nasıl davrandığını göstermek için korunmuştur.",
+      "osmanlica": "Numune kitabe satırları burada örnek olarak yer alabilir.",
+      "turkce": "Bu bölüm, ikinci test kartının Türkçe açıklama alanıdır.",
+      "ingilizce": "Sample translation text for the second preserved test record."
+    },
+    {
+      "id": "bahar-hatun-numune-sahidesi",
+      "mekanId": "uskudar-deneme-haziresi",
+      "baslik": "Bahar Hatun Numune Şahidesi",
+      "kategori": "Test",
+      "konum": "Üsküdar Deneme Haziresi, İstanbul",
+      "gorsel": "../assets/images/covers/uskudar-deneme.svg",
+      "kisaAciklama": "Yedek testler arasında tutulan bu kayıt, örnek şahide kartının sade görünümünü korumak için bırakılmıştır.",
+      "detay": "Üsküdar deneme alanındaki bu örnek kayıt, kart yapısının farklı isimlerde de dengeli görünmesini test etmek için saklanmıştır.",
+      "osmanlica": "Örnek şahide kitabe satırları bu kutuda yer alabilir.",
+      "turkce": "Bu bölüm, şahide metninin sadeleştirilmiş Türkçe açıklaması içindir.",
+      "ingilizce": "Reserved sample translation for the Üsküdar test record."
+    },
+    {
+      "id": "uskudar-aile-kabri-01",
+      "mekanId": "uskudar-deneme-haziresi",
+      "baslik": "Üsküdar Aile Kabri 01",
+      "kategori": "Test",
+      "konum": "Üsküdar Deneme Haziresi, İstanbul",
+      "gorsel": "../assets/images/covers/uskudar-deneme.svg",
+      "kisaAciklama": "Aile kabri tipindeki yedek test kaydı, aynı alan içinde benzer kartların görünümünü dener.",
+      "detay": "Bu kart, ortak aile kabri gibi farklı test başlıklarının sistemde sorunsuz listelenebilmesi için tutulmuştur.",
+      "osmanlica": "Aile kabri için örnek metin burada gösterilebilir.",
+      "turkce": "Aile kabri açıklamasının Türkçe örneği bu alana yazılır.",
+      "ingilizce": "Sample English text for the family grave test card."
+    },
+    {
+      "id": "selim-dede-deneme-kabri",
+      "mekanId": "konya-deneme-kabristani",
+      "baslik": "Selim Dede Deneme Kabri",
+      "kategori": "Test",
+      "konum": "Konya Deneme Kabristanı",
+      "gorsel": "../assets/images/covers/konya-deneme.svg",
+      "kisaAciklama": "Konya için tutulan bu yedek test kaydı, mezar kartlarının farklı başlıklarda da okunabilir kalmasını gösterir.",
+      "detay": "Bu örnek kart, daha sakin metinli kayıtların da eski sayfa yapısında düzgün çalıştığını sınamak için saklanmıştır.",
+      "osmanlica": "Deneme kabri için örnek Osmanlıca satırları burada yer alabilir.",
+      "turkce": "Bu kutu, deneme kabri kartının Türkçe açıklama alanıdır.",
+      "ingilizce": "Sample explanation for the Konya backup test grave."
+    },
+    {
+      "id": "sukun-bahcesi-numune-mezari",
+      "mekanId": "konya-deneme-kabristani",
+      "baslik": "Sükun Bahçesi Numune Mezarı",
+      "kategori": "Test",
+      "konum": "Konya Deneme Kabristanı",
+      "gorsel": "../assets/images/covers/konya-deneme.svg",
+      "kisaAciklama": "İkinci Konya test kaydı, aynı mezarlık altında çoklu kart görünümünü yedek senaryo olarak korur.",
+      "detay": "Kart yoğunluğu ve başlık farkları için hazırlanan bu numune kayıt, eski düzeni bozmadan test verisi bırakmak amacıyla korunmuştur.",
+      "osmanlica": "Numune mezar için test metni burada bulunabilir.",
+      "turkce": "Bu alan, numune mezarın Türkçe açıklamasını örneklemek için ayrılmıştır.",
+      "ingilizce": "Backup sample translation for the second Konya test record."
+    },
+    {
+      "id": "gulzar-hanim-deneme-mezari",
+      "mekanId": "edirne-deneme-mezarligi",
+      "baslik": "Gülzar Hanım Deneme Mezarı",
+      "kategori": "Test",
+      "konum": "Edirne Deneme Mezarlığı",
+      "gorsel": "../assets/images/covers/edirne-deneme.svg",
+      "kisaAciklama": "Edirne deneme alanındaki bu yedek kayıt, farklı görsel kapaklarla kart düzeninin bozulmadan çalışmasını sağlar.",
+      "detay": "Sunum sırasında ya da ilerideki testlerde kullanılmak üzere bırakılan bu kayıt, eski tasarımla da uyumlu şekilde korunmuştur.",
+      "osmanlica": "Örnek mezar kitabe satırları bu kutuda yer alabilir.",
+      "turkce": "Bu bölüm, mezar taşı açıklamasının Türkçe örneğidir.",
+      "ingilizce": "Sample English note for the Edirne backup grave record."
+    },
+    {
+      "id": "eski-yolcu-numune-tasi",
+      "mekanId": "edirne-deneme-mezarligi",
+      "baslik": "Eski Yolcu Numune Taşı",
+      "kategori": "Test",
+      "konum": "Edirne Deneme Mezarlığı",
+      "gorsel": "../assets/images/covers/edirne-deneme.svg",
+      "kisaAciklama": "İkinci Edirne test kaydı, aynı alan altındaki yedek kartların birlikte nasıl göründüğünü korumak için bırakılmıştır.",
+      "detay": "Bu kayıt, eski görünümde çoklu kart düzeni testleri için saklanan örnek veri olarak kalır.",
+      "osmanlica": "Numune taş için örnek eski metin burada bulunabilir.",
+      "turkce": "Bu alan, taş metninin sade Türkçe açıklaması için ayrılmıştır.",
+      "ingilizce": "Backup sample text for the second Edirne test record."
+    }
+  ]
+}
