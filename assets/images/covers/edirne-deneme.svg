@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8f6d2f"/>
+      <stop offset="55%" stop-color="#be9548"/>
+      <stop offset="100%" stop-color="#20584f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="188" cy="122" r="122" fill="#ffffff" opacity="0.08"/>
+  <circle cx="1042" cy="608" r="190" fill="#ffffff" opacity="0.06"/>
+  <path d="M0 564C176 496 344 514 502 596C656 675 838 650 1006 574C1078 542 1140 530 1200 534V720H0Z" fill="#ffffff" opacity="0.07"/>
+  <rect x="72" y="72" rx="28" width="248" height="58" fill="#ffffff" opacity="0.14"/>
+  <text x="196" y="108" fill="#ffffff" font-size="24" font-family="Georgia, serif" font-weight="700" text-anchor="middle">Sunum alanı</text>
+  <rect x="74" y="176" rx="38" width="718" height="294" fill="#101114" opacity="0.18" stroke="#ffffff" stroke-opacity="0.18"/>
+  <text x="102" y="292" fill="#ffffff" font-size="72" font-family="Georgia, serif" font-weight="700">
+    <tspan x="102" dy="0">Edirne Deneme</tspan>
+    <tspan x="102" dy="78">Mezarlığı</tspan>
+  </text>
+  <text x="102" y="546" fill="#ffffff" opacity="0.84" font-size="31" font-family="Arial, sans-serif">Aydınlık paletle hazırlanan sunum kayıtları</text>
+  <text x="102" y="606" fill="#ffffff" opacity="0.62" font-size="22" font-family="Arial, sans-serif">Gönül Yolcuları demo mezarlık kapak görseli</text>
+</svg>
