@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gönül Sofraları - Gönül Yolcuları</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="sofra-login-mode">
+  <header class="site-header">
+    <a class="brand" href="../index.html">
+      <img src="../assets/images/logo-gonul-yolculari.png" alt="Gönül Yolcuları Logo" class="brand-logo">
+      <div class="brand-text">
+        <span class="script-title">Gönül Yolcuları</span>
+        <small>Kardeşlik, iyilik ve kültürel miras</small>
+      </div>
+    </a>
+    <nav>
+      <a href="../index.html">Anasayfa</a>
+      <a href="../calismalarimiz/index.html">Çalışmalarımız</a>
+      <a class="active" href="index.html">Gönül Sofraları</a>
+    </nav>
+  </header>
+
+  <main class="sofra-app" data-sofra-app>
+    <section class="sofra-dashboard">
+      <div class="sofra-dashboard-copy">
+        <span class="badge">Gönül Sofraları</span>
+        <h1>Sipariş, teslim alma ve dağıtım takip modülü</h1>
+        <p>
+          Fırın, yurt, yemekhane ve lokanta gibi kurumların ihtiyaç fazlası yemek veya sipariş kayıtlarını
+          oluşturduğu; teslim alma ekiplerinin üstlendiği ve dağıtım görevlilerinin süreci tamamladığı
+          sade bir takip ekranı.
+        </p>
+      </div>
+
+      <div class="sofra-session-card" aria-label="Aktif rol ve kullanıcı">
+        <div>
+          <span class="sofra-kicker">Aktif görünüm</span>
+          <strong id="activeRoleLabel">Alınan Sipariş</strong>
+          <small id="loggedAccountLabel">Merkez Admin hesabı açık</small>
+        </div>
+        <label class="sofra-user-select">
+          <span>Kullanıcı</span>
+          <select id="userSelect"></select>
+        </label>
+        <div class="sofra-session-actions">
+          <button class="sofra-btn sofra-btn-ghost" id="resetSofraData" type="button">Örnek veriyi yenile</button>
+          <button class="sofra-btn sofra-btn-ghost" id="logoutSofraUser" type="button">Çıkış Yap</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="sofra-login-area" aria-label="Giriş ekranı">
+      <form class="sofra-login-card" id="sofraLoginForm">
+        <div>
+          <h2>Hoş Geldiniz</h2>
+        </div>
+
+        <label>
+          <span>E-posta</span>
+          <input id="accountEmail" type="email" placeholder="E-posta" autocomplete="username" required>
+        </label>
+
+        <label>
+          <span>Şifre</span>
+          <input id="accountPassword" type="password" placeholder="Şifre" autocomplete="current-password" required>
+        </label>
+
+        <button class="sofra-btn sofra-btn-primary" type="submit">Giriş Yap</button>
+        <small>Demo: <strong>yurt@gonul.local</strong>, <strong>dagitici@gonul.local</strong>, <strong>vakif@gonul.local</strong> / <strong>1234</strong></small>
+      </form>
+    </section>
+
+    <section class="sofra-screen-cards" id="screenCards" aria-label="Panel ekranları"></section>
+
+    <section class="sofra-role-strip" aria-label="Rol seçimi">
+      <button class="sofra-sidebar-toggle" id="sofraSidebarToggle" type="button" aria-label="Yan menüyü daralt" aria-expanded="true">
+        <span class="sofra-sidebar-logo">GY</span>
+        <span class="sofra-sidebar-brand">Gönül Ofis</span>
+        <span class="sofra-sidebar-pin">⌘</span>
+      </button>
+      <button class="sofra-role-tab" type="button" data-role="provider" title="Yurt / Yardım Veren Kurum">
+        <span class="sofra-role-icon">YK</span>
+        <span class="sofra-role-label">Yurt / Yardım Veren Kurum</span>
+        <span class="sofra-role-arrow">›</span>
+      </button>
+      <button class="sofra-role-tab" type="button" data-role="receiver" title="Vakıf / Teslim Ekibi">
+        <span class="sofra-role-icon">VK</span>
+        <span class="sofra-role-label">Vakıf / Teslim Ekibi</span>
+        <span class="sofra-role-arrow">›</span>
+      </button>
+      <button class="sofra-role-tab" type="button" data-role="distributor" title="Dağıtan Kişi">
+        <span class="sofra-role-icon">DG</span>
+        <span class="sofra-role-label">Dağıtan Kişi</span>
+        <span class="sofra-role-arrow">›</span>
+      </button>
+      <button class="sofra-role-tab" type="button" data-role="admin" title="Vakıf / Yönetici">
+        <span class="sofra-role-icon">AD</span>
+        <span class="sofra-role-label">Vakıf / Yönetici</span>
+        <span class="sofra-role-arrow">›</span>
+      </button>
+    </section>
+
+    <section class="sofra-metrics" id="metricGrid" aria-label="Takip özeti"></section>
+
+    <section class="sofra-workspace">
+      <aside class="sofra-side-panel" id="contextPanel"></aside>
+
+      <section class="sofra-table-panel" aria-label="Sipariş tablosu">
+        <div class="sofra-table-head">
+          <div>
+            <span class="sofra-live-dot"><i></i> Canlı tablo görünümü</span>
+            <h2 id="panelTitle">Gönül Sofraları Dashboard</h2>
+            <p id="panelDescription"></p>
+          </div>
+
+          <div class="sofra-table-tools">
+            <label class="sofra-search">
+              <span>Arama</span>
+              <input id="tableSearch" type="search" placeholder="Kayıt, kurum, not veya adres ara">
+            </label>
+
+            <label class="sofra-page-size">
+              <span>Sayfa</span>
+              <select id="pageSize">
+                <option value="5">5</option>
+                <option value="8" selected>8</option>
+                <option value="12">12</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="sofra-table-state" id="tableStateBar"></div>
+
+        <div class="sofra-table-wrap">
+          <table class="sofra-table" id="recordsTable">
+            <thead id="recordsTableHead"></thead>
+            <tbody id="recordsTableBody"></tbody>
+          </table>
+        </div>
+
+        <div class="sofra-pagination" id="paginationBar"></div>
+      </section>
+    </section>
+  </main>
+
+  <div class="sofra-drawer-backdrop" id="drawerBackdrop" hidden></div>
+  <aside class="sofra-drawer" id="recordDrawer" aria-hidden="true" aria-label="Kayıt detay paneli">
+    <div id="drawerContent"></div>
+  </aside>
+
+  <div class="sofra-toast" id="sofraToast" role="status" aria-live="polite"></div>
+
+  <footer class="footer clean-footer">
+    <div>
+      <h3 class="script-footer">Gönül Yolcuları</h3>
+      <p>
+        İyiliği, kültürel mirası ve dijital erişilebilirliği bir araya getiren sade ve anlamlı bir
+        gönüllülük ekibi.
+      </p>
+    </div>
+
+    <div>
+      <h4>Sayfalar</h4>
+      <p>Anasayfa<br>Çalışmalarımız<br>Gönül Sofraları</p>
+    </div>
+
+    <div>
+      <h4>İletişim</h4>
+      <p><a href="mailto:yolcularigonul@gmail.com">yolcularigonul@gmail.com</a></p>
+    </div>
+
+    <small>&copy; 2026 Gönül Yolcuları. Tüm hakları saklıdır.</small>
+  </footer>
+
+  <script src="../assets/js/app.js"></script>
+  <script src="../assets/js/gonul-sofralari.js"></script>
+</body>
+</html>
